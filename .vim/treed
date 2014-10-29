@@ -1,0 +1,1088 @@
+.
+├── bundle
+│   ├── VimClojure
+│   │   ├── README
+│   │   ├── README.markdown
+│   │   ├── autoload
+│   │   │   ├── vimclojure
+│   │   │   │   └── util.vim
+│   │   │   └── vimclojure.vim
+│   │   ├── bin
+│   │   │   ├── clj
+│   │   │   ├── clj.bat
+│   │   │   ├── ng-server
+│   │   │   └── ng-server.bat
+│   │   ├── doc
+│   │   │   ├── LICENSE.txt
+│   │   │   └── clojure.txt
+│   │   ├── ftdetect
+│   │   │   └── clojure.vim
+│   │   ├── ftplugin
+│   │   │   ├── clojure
+│   │   │   │   ├── completions-clojure.core.txt
+│   │   │   │   ├── completions-clojure.data.txt
+│   │   │   │   ├── completions-clojure.inspector.txt
+│   │   │   │   ├── completions-clojure.java.browse.txt
+│   │   │   │   ├── completions-clojure.java.io.txt
+│   │   │   │   ├── completions-clojure.java.javadoc.txt
+│   │   │   │   ├── completions-clojure.java.shell.txt
+│   │   │   │   ├── completions-clojure.main.txt
+│   │   │   │   ├── completions-clojure.pprint.txt
+│   │   │   │   ├── completions-clojure.repl.txt
+│   │   │   │   ├── completions-clojure.set.txt
+│   │   │   │   ├── completions-clojure.stacktrace.txt
+│   │   │   │   ├── completions-clojure.string.txt
+│   │   │   │   ├── completions-clojure.template.txt
+│   │   │   │   ├── completions-clojure.test.junit.txt
+│   │   │   │   ├── completions-clojure.test.tap.txt
+│   │   │   │   ├── completions-clojure.test.txt
+│   │   │   │   ├── completions-clojure.walk.txt
+│   │   │   │   ├── completions-clojure.xml.txt
+│   │   │   │   └── completions-clojure.zip.txt
+│   │   │   └── clojure.vim
+│   │   ├── indent
+│   │   │   └── clojure.vim
+│   │   ├── plugin
+│   │   │   └── clojure.vim
+│   │   └── syntax
+│   │       └── clojure.vim
+│   ├── Wombat
+│   │   ├── README
+│   │   └── colors
+│   │       └── wombat.vim
+│   ├── ag.vim
+│   │   ├── README.md
+│   │   ├── Rakefile
+│   │   ├── autoload
+│   │   │   └── ag.vim
+│   │   ├── doc
+│   │   │   └── ag.txt
+│   │   └── plugin
+│   │       └── ag.vim
+│   ├── caw.vim
+│   │   ├── autoload
+│   │   │   └── caw.vim
+│   │   ├── doc
+│   │   │   └── caw.txt
+│   │   └── plugin
+│   │       └── caw.vim
+│   ├── molokai
+│   │   ├── README.md
+│   │   └── colors
+│   │       ├── molokai.vim
+│   │       └── molokai.vim.orig
+│   ├── neobundle.vim
+│   │   ├── LICENSE-MIT.txt
+│   │   ├── README.md
+│   │   ├── autoload
+│   │   │   ├── neobundle
+│   │   │   │   ├── autoload.vim
+│   │   │   │   ├── cache.vim
+│   │   │   │   ├── commands.vim
+│   │   │   │   ├── config.vim
+│   │   │   │   ├── init.vim
+│   │   │   │   ├── installer.vim
+│   │   │   │   ├── parser.vim
+│   │   │   │   ├── sources
+│   │   │   │   │   ├── github.vim
+│   │   │   │   │   ├── neobundle_vim_recipes.vim
+│   │   │   │   │   └── vim_scripts_org.vim
+│   │   │   │   ├── types
+│   │   │   │   │   ├── git.vim
+│   │   │   │   │   ├── hg.vim
+│   │   │   │   │   ├── nosync.vim
+│   │   │   │   │   ├── raw.vim
+│   │   │   │   │   └── svn.vim
+│   │   │   │   ├── util.vim
+│   │   │   │   └── vamkr.vim
+│   │   │   ├── neobundle.vim
+│   │   │   └── unite
+│   │   │       ├── kinds
+│   │   │       │   └── neobundle.vim
+│   │   │       └── sources
+│   │   │           ├── neobundle.vim
+│   │   │           ├── neobundle_install.vim
+│   │   │           ├── neobundle_lazy.vim
+│   │   │           ├── neobundle_log.vim
+│   │   │           └── neobundle_search.vim
+│   │   ├── bin
+│   │   │   ├── install.sh
+│   │   │   ├── neoinstall
+│   │   │   ├── neoinstall.bat
+│   │   │   └── neoinstall_novimproc.bat
+│   │   ├── doc
+│   │   │   └── neobundle.txt
+│   │   ├── ftdetect
+│   │   │   └── vimrecipe.vim
+│   │   ├── plugin
+│   │   │   └── neobundle.vim
+│   │   ├── syntax
+│   │   │   └── vimrecipe.vim
+│   │   ├── test
+│   │   │   ├── readme.md
+│   │   │   ├── vimrc
+│   │   │   ├── vimrc2
+│   │   │   ├── vimrc3
+│   │   │   └── vimrc4
+│   │   └── vest
+│   │       ├── test-parse.vim
+│   │       └── test-tsort.vim
+│   ├── neocomplcache
+│   │   ├── README.md
+│   │   ├── autoload
+│   │   │   ├── neocomplcache
+│   │   │   │   ├── async_cache.vim
+│   │   │   │   ├── cache.vim
+│   │   │   │   ├── commands.vim
+│   │   │   │   ├── complete.vim
+│   │   │   │   ├── context_filetype.vim
+│   │   │   │   ├── filters
+│   │   │   │   │   ├── converter_abbr.vim
+│   │   │   │   │   ├── converter_case.vim
+│   │   │   │   │   ├── converter_delimiter.vim
+│   │   │   │   │   ├── converter_nothing.vim
+│   │   │   │   │   ├── converter_remove_next_keyword.vim
+│   │   │   │   │   ├── matcher_fuzzy.vim
+│   │   │   │   │   ├── matcher_head.vim
+│   │   │   │   │   ├── matcher_old.vim
+│   │   │   │   │   ├── sorter_length.vim
+│   │   │   │   │   ├── sorter_nothing.vim
+│   │   │   │   │   └── sorter_rank.vim
+│   │   │   │   ├── filters.vim
+│   │   │   │   ├── handler.vim
+│   │   │   │   ├── helper.vim
+│   │   │   │   ├── init.vim
+│   │   │   │   ├── mappings.vim
+│   │   │   │   ├── sources
+│   │   │   │   │   ├── buffer_complete.vim
+│   │   │   │   │   ├── dictionary_complete.vim
+│   │   │   │   │   ├── filename_complete.vim
+│   │   │   │   │   ├── filename_include.vim
+│   │   │   │   │   ├── include_complete.vim
+│   │   │   │   │   ├── member_complete.vim
+│   │   │   │   │   ├── omni_complete.vim
+│   │   │   │   │   ├── syntax_complete.vim
+│   │   │   │   │   ├── tags_complete.vim
+│   │   │   │   │   ├── vim_complete
+│   │   │   │   │   │   ├── autocmds.dict
+│   │   │   │   │   │   ├── command_args.dict
+│   │   │   │   │   │   ├── command_completions.dict
+│   │   │   │   │   │   ├── command_prototypes.dict
+│   │   │   │   │   │   ├── command_replaces.dict
+│   │   │   │   │   │   ├── commands.dict
+│   │   │   │   │   │   ├── features.dict
+│   │   │   │   │   │   ├── functions.dict
+│   │   │   │   │   │   ├── helper.vim
+│   │   │   │   │   │   ├── mappings.dict
+│   │   │   │   │   │   ├── options.dict
+│   │   │   │   │   │   └── variables.dict
+│   │   │   │   │   └── vim_complete.vim
+│   │   │   │   ├── util.vim
+│   │   │   │   └── variables.vim
+│   │   │   ├── neocomplcache.vim
+│   │   │   ├── unite
+│   │   │   │   └── sources
+│   │   │   │       ├── file_include.vim
+│   │   │   │       └── neocomplcache.vim
+│   │   │   ├── vital
+│   │   │   │   ├── _13055f8
+│   │   │   │   │   ├── Data
+│   │   │   │   │   │   ├── List.vim
+│   │   │   │   │   │   └── String.vim
+│   │   │   │   │   ├── Prelude.vim
+│   │   │   │   │   └── System
+│   │   │   │   │       └── Cache.vim
+│   │   │   │   ├── _13055f8.vim
+│   │   │   │   └── neocomplcache.vital
+│   │   │   └── vital.vim
+│   │   ├── doc
+│   │   │   └── neocomplcache.txt
+│   │   ├── plugin
+│   │   │   ├── neocomplcache
+│   │   │   │   ├── buffer_complete.vim
+│   │   │   │   ├── dictionary_complete.vim
+│   │   │   │   ├── include_complete.vim
+│   │   │   │   ├── syntax_complete.vim
+│   │   │   │   └── tags_complete.vim
+│   │   │   └── neocomplcache.vim
+│   │   └── vest
+│   │       └── test-neocomplcache.vim
+│   ├── neocomplete
+│   │   ├── README.md
+│   │   ├── autoload
+│   │   │   ├── neocomplete
+│   │   │   │   ├── async_cache.vim
+│   │   │   │   ├── cache.vim
+│   │   │   │   ├── commands.vim
+│   │   │   │   ├── complete.vim
+│   │   │   │   ├── context_filetype.vim
+│   │   │   │   ├── custom.vim
+│   │   │   │   ├── echodoc.vim
+│   │   │   │   ├── filters
+│   │   │   │   │   ├── converter_abbr.vim
+│   │   │   │   │   ├── converter_case.vim
+│   │   │   │   │   ├── converter_delimiter.vim
+│   │   │   │   │   ├── converter_disable_abbr.vim
+│   │   │   │   │   ├── converter_remove_last_paren.vim
+│   │   │   │   │   ├── converter_remove_overlap.vim
+│   │   │   │   │   ├── matcher_fuzzy.vim
+│   │   │   │   │   ├── matcher_head.vim
+│   │   │   │   │   ├── matcher_length.vim
+│   │   │   │   │   ├── sorter_filename.vim
+│   │   │   │   │   ├── sorter_length.vim
+│   │   │   │   │   ├── sorter_rank.vim
+│   │   │   │   │   └── sorter_word.vim
+│   │   │   │   ├── filters.vim
+│   │   │   │   ├── handler.vim
+│   │   │   │   ├── helper.vim
+│   │   │   │   ├── init.vim
+│   │   │   │   ├── mappings.vim
+│   │   │   │   ├── sources
+│   │   │   │   │   ├── buffer.vim
+│   │   │   │   │   ├── dictionary.vim
+│   │   │   │   │   ├── file.vim
+│   │   │   │   │   ├── file_include.vim
+│   │   │   │   │   ├── include.vim
+│   │   │   │   │   ├── member.vim
+│   │   │   │   │   ├── omni.vim
+│   │   │   │   │   ├── syntax.vim
+│   │   │   │   │   ├── tag.vim
+│   │   │   │   │   ├── vim
+│   │   │   │   │   │   ├── command_args.dict
+│   │   │   │   │   │   ├── command_completions.dict
+│   │   │   │   │   │   ├── command_replaces.dict
+│   │   │   │   │   │   ├── helper.vim
+│   │   │   │   │   │   └── mappings.dict
+│   │   │   │   │   └── vim.vim
+│   │   │   │   ├── util.vim
+│   │   │   │   └── variables.vim
+│   │   │   ├── neocomplete.vim
+│   │   │   ├── unite
+│   │   │   │   └── sources
+│   │   │   │       ├── file_include.vim
+│   │   │   │       └── neocomplete.vim
+│   │   │   ├── vital
+│   │   │   │   ├── _neocomplete
+│   │   │   │   │   ├── Data
+│   │   │   │   │   │   ├── List.vim
+│   │   │   │   │   │   └── String.vim
+│   │   │   │   │   ├── Prelude.vim
+│   │   │   │   │   ├── Process.vim
+│   │   │   │   │   └── System
+│   │   │   │   │       └── Cache.vim
+│   │   │   │   ├── _neocomplete.vim
+│   │   │   │   └── neocomplete.vital
+│   │   │   └── vital.vim
+│   │   ├── doc
+│   │   │   └── neocomplete.txt
+│   │   ├── plugin
+│   │   │   ├── neocomplete
+│   │   │   │   ├── buffer.vim
+│   │   │   │   ├── dictionary.vim
+│   │   │   │   ├── include.vim
+│   │   │   │   ├── syntax.vim
+│   │   │   │   └── tag.vim
+│   │   │   └── neocomplete.vim
+│   │   └── vest
+│   │       └── test-neocomplete.vim
+│   ├── neosnippet
+│   │   ├── README.md
+│   │   ├── autoload
+│   │   │   ├── neocomplcache
+│   │   │   │   └── sources
+│   │   │   │       └── snippets_complete.vim
+│   │   │   ├── neocomplete
+│   │   │   │   └── sources
+│   │   │   │       └── neosnippet.vim
+│   │   │   ├── neosnippet
+│   │   │   │   ├── commands.vim
+│   │   │   │   ├── helpers.vim
+│   │   │   │   ├── init.vim
+│   │   │   │   ├── mappings.vim
+│   │   │   │   ├── parser.vim
+│   │   │   │   ├── util.vim
+│   │   │   │   ├── variables.vim
+│   │   │   │   └── view.vim
+│   │   │   ├── neosnippet.vim
+│   │   │   ├── unite
+│   │   │   │   └── sources
+│   │   │   │       ├── neosnippet.vim
+│   │   │   │       ├── neosnippet_file.vim
+│   │   │   │       └── neosnippet_target.vim
+│   │   │   ├── vital
+│   │   │   │   ├── _neosnippet
+│   │   │   │   │   ├── Data
+│   │   │   │   │   │   └── List.vim
+│   │   │   │   │   ├── Prelude.vim
+│   │   │   │   │   ├── Process.vim
+│   │   │   │   │   └── System
+│   │   │   │   │       └── Cache.vim
+│   │   │   │   ├── _neosnippet.vim
+│   │   │   │   └── neosnippet.vital
+│   │   │   └── vital.vim
+│   │   ├── doc
+│   │   │   └── neosnippet.txt
+│   │   ├── ftdetect
+│   │   │   └── neosnippet.vim
+│   │   ├── ftplugin
+│   │   │   └── neosnippet.vim
+│   │   ├── indent
+│   │   │   └── neosnippet.vim
+│   │   ├── plugin
+│   │   │   └── neosnippet.vim
+│   │   └── syntax
+│   │       └── neosnippet.vim
+│   ├── neosnippet-snippets
+│   │   ├── README.mkd
+│   │   └── neosnippets
+│   │       ├── Gemfile.snip
+│   │       ├── _.snip
+│   │       ├── actionscript.snip
+│   │       ├── apache.snip
+│   │       ├── applescript.snip
+│   │       ├── bib.snip
+│   │       ├── c.snip
+│   │       ├── clojure.snip
+│   │       ├── cmake.snip
+│   │       ├── coffee.snip
+│   │       ├── cpp.snip
+│   │       ├── css.snip
+│   │       ├── d.snip
+│   │       ├── erlang.snip
+│   │       ├── eruby.snip
+│   │       ├── go.snip
+│   │       ├── groovy.snip
+│   │       ├── haskell.snip
+│   │       ├── html.snip
+│   │       ├── java.snip
+│   │       ├── javascript.snip
+│   │       ├── kp19pp.snip
+│   │       ├── liquid.snip
+│   │       ├── lua.snip
+│   │       ├── make.snip
+│   │       ├── markdown.snip
+│   │       ├── mediawiki.snip
+│   │       ├── moon.snip
+│   │       ├── neosnippet.snip
+│   │       ├── objc.snip
+│   │       ├── perl.snip
+│   │       ├── php.snip
+│   │       ├── python.snip
+│   │       ├── rails.snip
+│   │       ├── rst.snip
+│   │       ├── ruby.snip
+│   │       ├── scala.snip
+│   │       ├── scheme.snip
+│   │       ├── sh.snip
+│   │       ├── sql.snip
+│   │       ├── sshconfig.snip
+│   │       ├── tex.snip
+│   │       ├── vim
+│   │       │   └── vital.snip
+│   │       ├── vim.snip
+│   │       ├── vimshell.snip
+│   │       └── xhtml.snip
+│   ├── syntastic
+│   │   ├── CONTRIBUTING.md
+│   │   ├── LICENCE
+│   │   ├── README.markdown
+│   │   ├── _assets
+│   │   │   └── screenshot_1.png
+│   │   ├── autoload
+│   │   │   └── syntastic
+│   │   │       ├── c.vim
+│   │   │       ├── log.vim
+│   │   │       ├── postprocess.vim
+│   │   │       ├── preprocess.vim
+│   │   │       └── util.vim
+│   │   ├── doc
+│   │   │   └── syntastic.txt
+│   │   ├── plugin
+│   │   │   ├── syntastic
+│   │   │   │   ├── autoloclist.vim
+│   │   │   │   ├── balloons.vim
+│   │   │   │   ├── checker.vim
+│   │   │   │   ├── cursor.vim
+│   │   │   │   ├── highlighting.vim
+│   │   │   │   ├── loclist.vim
+│   │   │   │   ├── modemap.vim
+│   │   │   │   ├── notifiers.vim
+│   │   │   │   ├── registry.vim
+│   │   │   │   └── signs.vim
+│   │   │   └── syntastic.vim
+│   │   └── syntax_checkers
+│   │       ├── actionscript
+│   │       │   └── mxmlc.vim
+│   │       ├── ada
+│   │       │   └── gcc.vim
+│   │       ├── applescript
+│   │       │   └── osacompile.vim
+│   │       ├── asciidoc
+│   │       │   └── asciidoc.vim
+│   │       ├── asm
+│   │       │   └── gcc.vim
+│   │       ├── bemhtml
+│   │       │   └── bemhtmllint.vim
+│   │       ├── bro
+│   │       │   └── bro.vim
+│   │       ├── c
+│   │       │   ├── avrgcc.vim
+│   │       │   ├── checkpatch.vim
+│   │       │   ├── cppcheck.vim
+│   │       │   ├── gcc.vim
+│   │       │   ├── make.vim
+│   │       │   ├── oclint.vim
+│   │       │   ├── sparse.vim
+│   │       │   └── splint.vim
+│   │       ├── chef
+│   │       │   └── foodcritic.vim
+│   │       ├── co
+│   │       │   └── coco.vim
+│   │       ├── cobol
+│   │       │   └── cobc.vim
+│   │       ├── coffee
+│   │       │   ├── coffee.vim
+│   │       │   └── coffeelint.vim
+│   │       ├── coq
+│   │       │   └── coqtop.vim
+│   │       ├── cpp
+│   │       │   ├── cppcheck.vim
+│   │       │   ├── cpplint.vim
+│   │       │   ├── gcc.vim
+│   │       │   └── oclint.vim
+│   │       ├── cs
+│   │       │   └── mcs.vim
+│   │       ├── css
+│   │       │   ├── csslint.vim
+│   │       │   ├── phpcs.vim
+│   │       │   ├── prettycss.vim
+│   │       │   └── recess.vim
+│   │       ├── cucumber
+│   │       │   └── cucumber.vim
+│   │       ├── cuda
+│   │       │   └── nvcc.vim
+│   │       ├── d
+│   │       │   └── dmd.vim
+│   │       ├── dart
+│   │       │   └── dartanalyzer.vim
+│   │       ├── docbk
+│   │       │   └── xmllint.vim
+│   │       ├── dustjs
+│   │       │   └── swiffer.vim
+│   │       ├── elixir
+│   │       │   └── elixir.vim
+│   │       ├── erlang
+│   │       │   ├── erlang_check_file.erl
+│   │       │   ├── escript.vim
+│   │       │   └── syntaxerl.vim
+│   │       ├── eruby
+│   │       │   └── ruby.vim
+│   │       ├── fortran
+│   │       │   └── gfortran.vim
+│   │       ├── glsl
+│   │       │   └── cgc.vim
+│   │       ├── go
+│   │       │   ├── go.vim
+│   │       │   ├── gofmt.vim
+│   │       │   ├── golint.vim
+│   │       │   ├── gotype.vim
+│   │       │   └── govet.vim
+│   │       ├── haml
+│   │       │   ├── haml.vim
+│   │       │   └── haml_lint.vim
+│   │       ├── handlebars
+│   │       │   └── handlebars.vim
+│   │       ├── haskell
+│   │       │   ├── ghc-mod.vim
+│   │       │   ├── hdevtools.vim
+│   │       │   ├── hlint.vim
+│   │       │   └── scan.vim
+│   │       ├── haxe
+│   │       │   └── haxe.vim
+│   │       ├── hss
+│   │       │   └── hss.vim
+│   │       ├── html
+│   │       │   ├── jshint.vim
+│   │       │   ├── tidy.vim
+│   │       │   ├── validator.vim
+│   │       │   └── w3.vim
+│   │       ├── java
+│   │       │   ├── checkstyle.vim
+│   │       │   └── javac.vim
+│   │       ├── javascript
+│   │       │   ├── closurecompiler.vim
+│   │       │   ├── eslint.vim
+│   │       │   ├── gjslint.vim
+│   │       │   ├── jscs.vim
+│   │       │   ├── jshint.vim
+│   │       │   ├── jsl.vim
+│   │       │   ├── jslint.vim
+│   │       │   └── jsxhint.vim
+│   │       ├── json
+│   │       │   ├── jsonlint.vim
+│   │       │   └── jsonval.vim
+│   │       ├── less
+│   │       │   ├── less-lint.coffee
+│   │       │   ├── less-lint.js
+│   │       │   ├── lessc.vim
+│   │       │   └── recess.vim
+│   │       ├── lex
+│   │       │   └── flex.vim
+│   │       ├── limbo
+│   │       │   └── limbo.vim
+│   │       ├── lisp
+│   │       │   └── clisp.vim
+│   │       ├── llvm
+│   │       │   └── llvm.vim
+│   │       ├── lua
+│   │       │   └── luac.vim
+│   │       ├── matlab
+│   │       │   └── mlint.vim
+│   │       ├── nasm
+│   │       │   └── nasm.vim
+│   │       ├── nroff
+│   │       │   └── mandoc.vim
+│   │       ├── objc
+│   │       │   ├── gcc.vim
+│   │       │   └── oclint.vim
+│   │       ├── objcpp
+│   │       │   ├── gcc.vim
+│   │       │   └── oclint.vim
+│   │       ├── ocaml
+│   │       │   └── camlp4o.vim
+│   │       ├── perl
+│   │       │   ├── perl.vim
+│   │       │   ├── perlcritic.vim
+│   │       │   └── podchecker.vim
+│   │       ├── php
+│   │       │   ├── php.vim
+│   │       │   ├── phpcs.vim
+│   │       │   └── phpmd.vim
+│   │       ├── po
+│   │       │   └── msgfmt.vim
+│   │       ├── pod
+│   │       │   └── podchecker.vim
+│   │       ├── puppet
+│   │       │   ├── puppet.vim
+│   │       │   └── puppetlint.vim
+│   │       ├── python
+│   │       │   ├── compile.py
+│   │       │   ├── flake8.vim
+│   │       │   ├── frosted.vim
+│   │       │   ├── pep257.vim
+│   │       │   ├── pep8.vim
+│   │       │   ├── py3kwarn.vim
+│   │       │   ├── pyflakes.vim
+│   │       │   ├── pylama.vim
+│   │       │   ├── pylint.vim
+│   │       │   └── python.vim
+│   │       ├── r
+│   │       │   ├── lint.vim
+│   │       │   └── svtools.vim
+│   │       ├── racket
+│   │       │   ├── code-ayatollah.vim
+│   │       │   └── racket.vim
+│   │       ├── rst
+│   │       │   ├── rst2pseudoxml.vim
+│   │       │   └── rstcheck.vim
+│   │       ├── ruby
+│   │       │   ├── jruby.vim
+│   │       │   ├── macruby.vim
+│   │       │   ├── mri.vim
+│   │       │   ├── rubocop.vim
+│   │       │   └── rubylint.vim
+│   │       ├── rust
+│   │       │   └── rustc.vim
+│   │       ├── sass
+│   │       │   └── sass.vim
+│   │       ├── scala
+│   │       │   ├── fsc.vim
+│   │       │   └── scalac.vim
+│   │       ├── scss
+│   │       │   ├── sass.vim
+│   │       │   └── scss_lint.vim
+│   │       ├── sh
+│   │       │   ├── checkbashisms.vim
+│   │       │   ├── sh.vim
+│   │       │   └── shellcheck.vim
+│   │       ├── slim
+│   │       │   └── slimrb.vim
+│   │       ├── tcl
+│   │       │   └── nagelfar.vim
+│   │       ├── tex
+│   │       │   ├── chktex.vim
+│   │       │   └── lacheck.vim
+│   │       ├── texinfo
+│   │       │   └── makeinfo.vim
+│   │       ├── text
+│   │       │   ├── atdtool.vim
+│   │       │   └── language_check.vim
+│   │       ├── twig
+│   │       │   └── twiglint.vim
+│   │       ├── typescript
+│   │       │   ├── tsc.vim
+│   │       │   └── tslint.vim
+│   │       ├── vala
+│   │       │   └── valac.vim
+│   │       ├── verilog
+│   │       │   └── verilator.vim
+│   │       ├── vhdl
+│   │       │   └── ghdl.vim
+│   │       ├── vim
+│   │       │   └── vimlint.vim
+│   │       ├── xhtml
+│   │       │   ├── jshint.vim
+│   │       │   └── tidy.vim
+│   │       ├── xml
+│   │       │   ├── plutil.vim
+│   │       │   └── xmllint.vim
+│   │       ├── xslt
+│   │       │   └── xmllint.vim
+│   │       ├── yacc
+│   │       │   └── bison.vim
+│   │       ├── yaml
+│   │       │   ├── jsyaml.vim
+│   │       │   └── yamlxs.vim
+│   │       ├── z80
+│   │       │   └── z80syntaxchecker.vim
+│   │       ├── zpt
+│   │       │   └── zptlint.vim
+│   │       └── zsh
+│   │           ├── shellcheck.vim
+│   │           └── zsh.vim
+│   ├── taglist.vim
+│   │   ├── README
+│   │   ├── doc
+│   │   │   └── taglist.txt
+│   │   └── plugin
+│   │       └── taglist.vim
+│   ├── unite.vim
+│   │   ├── CONTRIBUTING.md
+│   │   ├── README.md
+│   │   ├── autoload
+│   │   │   ├── unite
+│   │   │   │   ├── action.vim
+│   │   │   │   ├── candidates.vim
+│   │   │   │   ├── complete.vim
+│   │   │   │   ├── custom.vim
+│   │   │   │   ├── filters
+│   │   │   │   │   ├── converter_default.vim
+│   │   │   │   │   ├── converter_file_directory.vim
+│   │   │   │   │   ├── converter_full_path.vim
+│   │   │   │   │   ├── converter_nothing.vim
+│   │   │   │   │   ├── converter_relative_abbr.vim
+│   │   │   │   │   ├── converter_relative_word.vim
+│   │   │   │   │   ├── converter_smart_path.vim
+│   │   │   │   │   ├── converter_tail.vim
+│   │   │   │   │   ├── converter_tail_abbr.vim
+│   │   │   │   │   ├── matcher_context.vim
+│   │   │   │   │   ├── matcher_default.vim
+│   │   │   │   │   ├── matcher_fuzzy.vim
+│   │   │   │   │   ├── matcher_glob.vim
+│   │   │   │   │   ├── matcher_hide_hidden_files.vim
+│   │   │   │   │   ├── matcher_migemo.vim
+│   │   │   │   │   ├── matcher_project_files.vim
+│   │   │   │   │   ├── matcher_regexp.vim
+│   │   │   │   │   ├── sorter_default.vim
+│   │   │   │   │   ├── sorter_ftime.vim
+│   │   │   │   │   ├── sorter_length.vim
+│   │   │   │   │   ├── sorter_nothing.vim
+│   │   │   │   │   ├── sorter_rank.vim
+│   │   │   │   │   ├── sorter_reverse.vim
+│   │   │   │   │   ├── sorter_selecta.vim
+│   │   │   │   │   └── sorter_word.vim
+│   │   │   │   ├── filters.vim
+│   │   │   │   ├── handlers.vim
+│   │   │   │   ├── helper.vim
+│   │   │   │   ├── init.vim
+│   │   │   │   ├── kinds
+│   │   │   │   │   ├── buffer.vim
+│   │   │   │   │   ├── cdable.vim
+│   │   │   │   │   ├── command.vim
+│   │   │   │   │   ├── common.vim
+│   │   │   │   │   ├── completion.vim
+│   │   │   │   │   ├── directory.vim
+│   │   │   │   │   ├── file.vim
+│   │   │   │   │   ├── guicmd.vim
+│   │   │   │   │   ├── jump_list.vim
+│   │   │   │   │   ├── openable.vim
+│   │   │   │   │   ├── source.vim
+│   │   │   │   │   ├── tab.vim
+│   │   │   │   │   ├── uri.vim
+│   │   │   │   │   ├── window.vim
+│   │   │   │   │   └── word.vim
+│   │   │   │   ├── mappings.vim
+│   │   │   │   ├── sources
+│   │   │   │   │   ├── action.vim
+│   │   │   │   │   ├── alias.vim
+│   │   │   │   │   ├── bookmark.vim
+│   │   │   │   │   ├── buffer
+│   │   │   │   │   │   └── variables.vim
+│   │   │   │   │   ├── buffer.vim
+│   │   │   │   │   ├── change.vim
+│   │   │   │   │   ├── command.vim
+│   │   │   │   │   ├── directory.vim
+│   │   │   │   │   ├── file.vim
+│   │   │   │   │   ├── file_point.vim
+│   │   │   │   │   ├── find.vim
+│   │   │   │   │   ├── function.vim
+│   │   │   │   │   ├── grep.vim
+│   │   │   │   │   ├── history_input.vim
+│   │   │   │   │   ├── history_yank.vim
+│   │   │   │   │   ├── interactive.vim
+│   │   │   │   │   ├── jump.vim
+│   │   │   │   │   ├── jump_point.vim
+│   │   │   │   │   ├── launcher.vim
+│   │   │   │   │   ├── line.vim
+│   │   │   │   │   ├── mapping.vim
+│   │   │   │   │   ├── menu.vim
+│   │   │   │   │   ├── output.vim
+│   │   │   │   │   ├── process.vim
+│   │   │   │   │   ├── rec.vim
+│   │   │   │   │   ├── register.vim
+│   │   │   │   │   ├── resume.vim
+│   │   │   │   │   ├── runtimepath.vim
+│   │   │   │   │   ├── script.vim
+│   │   │   │   │   ├── source.vim
+│   │   │   │   │   ├── tab.vim
+│   │   │   │   │   ├── vimgrep.vim
+│   │   │   │   │   └── window.vim
+│   │   │   │   ├── start.vim
+│   │   │   │   ├── util.vim
+│   │   │   │   ├── variables.vim
+│   │   │   │   └── view.vim
+│   │   │   ├── unite.vim
+│   │   │   ├── vital
+│   │   │   │   ├── _unite
+│   │   │   │   │   ├── Data
+│   │   │   │   │   │   ├── List.vim
+│   │   │   │   │   │   └── String.vim
+│   │   │   │   │   ├── Prelude.vim
+│   │   │   │   │   ├── Process.vim
+│   │   │   │   │   ├── System
+│   │   │   │   │   │   ├── Cache.vim
+│   │   │   │   │   │   └── File.vim
+│   │   │   │   │   └── Vim
+│   │   │   │   │       └── Message.vim
+│   │   │   │   ├── _unite.vim
+│   │   │   │   ├── unite.vim.vital
+│   │   │   │   └── unite.vital
+│   │   │   └── vital.vim
+│   │   ├── doc
+│   │   │   └── unite.txt
+│   │   ├── plugin
+│   │   │   ├── unite
+│   │   │   │   ├── bookmark.vim
+│   │   │   │   ├── buffer.vim
+│   │   │   │   ├── history_yank.vim
+│   │   │   │   └── window.vim
+│   │   │   └── unite.vim
+│   │   ├── syntax
+│   │   │   └── unite.vim
+│   │   └── vest
+│   │       ├── test-matcher.vim
+│   │       ├── test-sorter.vim
+│   │       └── test-source.vim
+│   ├── vim-colors-solarized
+│   │   ├── README.mkd
+│   │   ├── autoload
+│   │   │   └── togglebg.vim
+│   │   ├── bitmaps
+│   │   │   └── togglebg.png
+│   │   ├── colors
+│   │   │   └── solarized.vim
+│   │   └── doc
+│   │       ├── solarized.txt
+│   │       └── tags
+│   ├── vim-lucius
+│   │   ├── README.md
+│   │   └── colors
+│   │       └── lucius.vim
+│   ├── vim-quickrun
+│   │   ├── autoload
+│   │   │   ├── quickrun
+│   │   │   │   ├── hook
+│   │   │   │   │   ├── cd.vim
+│   │   │   │   │   ├── eval.vim
+│   │   │   │   │   ├── output_encode.vim
+│   │   │   │   │   ├── shebang.vim
+│   │   │   │   │   ├── sweep.vim
+│   │   │   │   │   └── time.vim
+│   │   │   │   ├── module.vim
+│   │   │   │   ├── outputter
+│   │   │   │   │   ├── browser.vim
+│   │   │   │   │   ├── buffer.vim
+│   │   │   │   │   ├── buffered.vim
+│   │   │   │   │   ├── error.vim
+│   │   │   │   │   ├── file.vim
+│   │   │   │   │   ├── message.vim
+│   │   │   │   │   ├── multi.vim
+│   │   │   │   │   ├── null.vim
+│   │   │   │   │   ├── quickfix.vim
+│   │   │   │   │   └── variable.vim
+│   │   │   │   └── runner
+│   │   │   │       ├── process_manager.vim
+│   │   │   │       ├── python.vim
+│   │   │   │       ├── remote.vim
+│   │   │   │       ├── shell.vim
+│   │   │   │       ├── system.vim
+│   │   │   │       ├── vimproc.vim
+│   │   │   │       └── vimscript.vim
+│   │   │   ├── quickrun.vim
+│   │   │   ├── vital
+│   │   │   │   ├── _0ebe83b
+│   │   │   │   │   ├── Data
+│   │   │   │   │   │   ├── List.vim
+│   │   │   │   │   │   └── String.vim
+│   │   │   │   │   ├── Prelude.vim
+│   │   │   │   │   ├── ProcessManager.vim
+│   │   │   │   │   └── System
+│   │   │   │   │       ├── File.vim
+│   │   │   │   │       └── Filepath.vim
+│   │   │   │   ├── _0ebe83b.vim
+│   │   │   │   └── quickrun.vital
+│   │   │   └── vital.vim
+│   │   ├── doc
+│   │   │   ├── quickrun.jax
+│   │   │   └── quickrun.txt
+│   │   └── plugin
+│   │       └── quickrun.vim
+│   ├── vim-scala
+│   │   ├── Gemfile
+│   │   ├── Gemfile.lock
+│   │   ├── LICENSE.TXT
+│   │   ├── README.md
+│   │   ├── Rakefile
+│   │   ├── after
+│   │   │   ├── plugin
+│   │   │   │   └── help.vim
+│   │   │   └── syntax
+│   │   │       └── help.vim
+│   │   ├── doc
+│   │   │   └── scala.txt
+│   │   ├── ftdetect
+│   │   │   └── scala.vim
+│   │   ├── ftplugin
+│   │   │   ├── scala.vim
+│   │   │   └── scala.xpt.vim
+│   │   ├── indent
+│   │   │   ├── README
+│   │   │   ├── scala.vim
+│   │   │   └── testfile.scala
+│   │   ├── plugin
+│   │   │   └── scala.vim
+│   │   ├── spec
+│   │   │   ├── fixtures
+│   │   │   │   ├── multiple_newlines.expected.scala
+│   │   │   │   ├── multiple_newlines.scala
+│   │   │   │   ├── no_newline.expected.scala
+│   │   │   │   ├── no_newline.scala
+│   │   │   │   ├── no_newline_after.expected.scala
+│   │   │   │   ├── no_newline_after.scala
+│   │   │   │   ├── no_package.expected.scala
+│   │   │   │   ├── no_package.scala
+│   │   │   │   ├── vanilla.expected.scala
+│   │   │   │   └── vanilla.scala
+│   │   │   ├── import_sorting_spec.rb
+│   │   │   └── spec_helper.rb
+│   │   └── syntax
+│   │       ├── scala.vim
+│   │       └── testfile.scala
+│   ├── vim-slime
+│   │   ├── LICENSE.txt
+│   │   ├── README.md
+│   │   ├── doc
+│   │   │   └── vim-slime.txt
+│   │   ├── ftplugin
+│   │   │   ├── coffee
+│   │   │   │   └── slime.vim
+│   │   │   ├── fsharp
+│   │   │   │   └── slime.vim
+│   │   │   ├── haskell
+│   │   │   │   └── slime.vim
+│   │   │   ├── ocaml
+│   │   │   │   └── slime.vim
+│   │   │   ├── python
+│   │   │   │   └── slime.vim
+│   │   │   └── scala
+│   │   │       └── slime.vim
+│   │   └── plugin
+│   │       └── slime.vim
+│   ├── vim-surround
+│   │   ├── README.markdown
+│   │   ├── doc
+│   │   │   └── surround.txt
+│   │   └── plugin
+│   │       └── surround.vim
+│   ├── vimproc
+│   │   ├── Makefile
+│   │   ├── README.mkd
+│   │   ├── autoload
+│   │   │   ├── fakepoll.h
+│   │   │   ├── proc.c
+│   │   │   ├── proc_w32.c
+│   │   │   ├── ptytty.c
+│   │   │   ├── vimproc
+│   │   │   │   ├── cmd.vim
+│   │   │   │   ├── filepath.vim
+│   │   │   │   ├── lexer.vim
+│   │   │   │   ├── parser.vim
+│   │   │   │   └── util.vim
+│   │   │   ├── vimproc.vim
+│   │   │   └── vimstack.c
+│   │   ├── doc
+│   │   │   └── vimproc.txt
+│   │   ├── make_android.mak
+│   │   ├── make_cygwin.mak
+│   │   ├── make_mac.mak
+│   │   ├── make_mingw32.mak
+│   │   ├── make_mingw64.mak
+│   │   ├── make_msvc.mak
+│   │   ├── make_sunos.mak
+│   │   ├── make_unix.mak
+│   │   ├── plugin
+│   │   │   └── vimproc.vim
+│   │   ├── tools
+│   │   │   ├── benchmark.vim
+│   │   │   ├── fork.py
+│   │   │   ├── leak_check.vim
+│   │   │   └── leak_check2.vim
+│   │   └── vest
+│   │       ├── test-fopen.vim
+│   │       ├── test-functions.vim
+│   │       ├── test-lexer.vim
+│   │       ├── test-parser.vim
+│   │       ├── test-popen.vim
+│   │       ├── test-socket.vim
+│   │       └── test-system.vim
+│   └── vimshell
+│       ├── README.md
+│       ├── autoload
+│       │   ├── neocomplcache
+│       │   │   └── sources
+│       │   │       └── vimshell_complete.vim
+│       │   ├── neocomplete
+│       │   │   └── sources
+│       │   │       ├── vimshell.vim
+│       │   │       └── vimshell_history.vim
+│       │   ├── unite
+│       │   │   ├── kinds
+│       │   │   │   └── vimshell_history.vim
+│       │   │   └── sources
+│       │   │       ├── vimshell_external_history.vim
+│       │   │       ├── vimshell_history.vim
+│       │   │       ├── vimshell_zsh_complete
+│       │   │       │   └── complete.zsh
+│       │   │       └── vimshell_zsh_complete.vim
+│       │   ├── vimshell
+│       │   │   ├── altercmd.vim
+│       │   │   ├── commands
+│       │   │   │   ├── alias.vim
+│       │   │   │   ├── bg.vim
+│       │   │   │   ├── build.vim
+│       │   │   │   ├── cd.vim
+│       │   │   │   ├── cdup.vim
+│       │   │   │   ├── clear.vim
+│       │   │   │   ├── dirs.vim
+│       │   │   │   ├── echo.vim
+│       │   │   │   ├── eval.vim
+│       │   │   │   ├── exe.vim
+│       │   │   │   ├── exit.vim
+│       │   │   │   ├── export.vim
+│       │   │   │   ├── galias.vim
+│       │   │   │   ├── gcd.vim
+│       │   │   │   ├── gendoc.vim
+│       │   │   │   ├── gexe.vim
+│       │   │   │   ├── h.vim
+│       │   │   │   ├── histdel.vim
+│       │   │   │   ├── history.vim
+│       │   │   │   ├── iexe.vim
+│       │   │   │   ├── less.vim
+│       │   │   │   ├── let.vim
+│       │   │   │   ├── ls.vim
+│       │   │   │   ├── mkcd.vim
+│       │   │   │   ├── nop.vim
+│       │   │   │   ├── open.vim
+│       │   │   │   ├── popd.vim
+│       │   │   │   ├── pwd.vim
+│       │   │   │   ├── repeat.vim
+│       │   │   │   ├── scp.vim
+│       │   │   │   ├── sexe.vim
+│       │   │   │   ├── shell.vim
+│       │   │   │   ├── source.vim
+│       │   │   │   ├── source_shellcmd.vim
+│       │   │   │   ├── ssh.vim
+│       │   │   │   ├── sudo.vim
+│       │   │   │   ├── texe.vim
+│       │   │   │   ├── time.vim
+│       │   │   │   ├── vexe.vim
+│       │   │   │   ├── view.vim
+│       │   │   │   ├── vim.vim
+│       │   │   │   ├── vimdiff.vim
+│       │   │   │   ├── vimsh.vim
+│       │   │   │   ├── whereis.vim
+│       │   │   │   └── which.vim
+│       │   │   ├── complete
+│       │   │   │   └── helper.vim
+│       │   │   ├── complete.vim
+│       │   │   ├── handlers.vim
+│       │   │   ├── help.vim
+│       │   │   ├── helpers.vim
+│       │   │   ├── history.vim
+│       │   │   ├── hook.vim
+│       │   │   ├── init.vim
+│       │   │   ├── int_mappings.vim
+│       │   │   ├── interactive.vim
+│       │   │   ├── mappings.vim
+│       │   │   ├── parser.vim
+│       │   │   ├── term_mappings.vim
+│       │   │   ├── terminal.vim
+│       │   │   ├── util.vim
+│       │   │   ├── variables.vim
+│       │   │   └── view.vim
+│       │   ├── vimshell.vim
+│       │   ├── vital
+│       │   │   ├── _vimshell
+│       │   │   │   ├── Data
+│       │   │   │   │   └── List.vim
+│       │   │   │   ├── Prelude.vim
+│       │   │   │   ├── Process.vim
+│       │   │   │   └── Vim
+│       │   │   │       └── Buffer.vim
+│       │   │   ├── _vimshell.vim
+│       │   │   └── vimshell.vital
+│       │   └── vital.vim
+│       ├── doc
+│       │   └── vimshell.txt
+│       ├── plugin
+│       │   └── vimshell.vim
+│       ├── syntax
+│       │   ├── vimshell.vim
+│       │   └── vimshrc.vim
+│       └── vest
+│           ├── commands.vim
+│           ├── config.vim
+│           └── parser.vim
+├── dict
+│   └── scala.dict
+├── treed
+└── vundle.git
+    ├── CONTRIBUTING.md
+    ├── LICENSE-MIT.txt
+    ├── README.md
+    ├── autoload
+    │   ├── vundle
+    │   │   ├── config.vim
+    │   │   ├── installer.vim
+    │   │   └── scripts.vim
+    │   └── vundle.vim
+    ├── changelog.md
+    ├── doc
+    │   └── vundle.txt
+    └── test
+        ├── files
+        │   └── test.erl
+        ├── minirc.vim
+        └── vimrc
+
+283 directories, 802 files
